@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cambiador de colores</title>
+</head>
+<body>
+    <div class="container">
+        <label for="inputColor" class="form-label mt-3">
+
+            <input type="color" class="form-control" id="inputColor" value="#563d7c" title="Choose a color">
+
+            <div class="mt-3">
+                <button class="btn btn-primary" id="btnVisualizar">Visualizar</button>
+                <p class="lead mt-3" id="hexa">#563d7c</p>
+                <div id="cardColor" class="card p-5" style="background-color: #563d7c;"></div>
+            </div>
+
+        </label>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
